@@ -1,0 +1,19 @@
+print("Sirket karını hesaplamak icin degerleri giriniz")
+finansmanGelir=(int(input("Finansman gelirlerini giriniz"))
+pazar=(int(input("Pazar gelirini giriniz"))
+kiraGelir=(int(input("Kira gelirini giriniz"))
+
+ucret=(int(input("Ucret giderini giriniz"))
+finansmanGider=(int(input("Finansman giderini giriniz"))
+pazarGider=(int(input("Pazar giderini giriniz"))
+kiraGider=(int(input("Kira giderini giriniz"))
+muhasebeGider=(int(input("Muhasebe gideriniz giriniz"))
+
+gelir=finansmanGelir+pazarGelir+kiraGelir
+gider:ucret+finansmanGider+pazarGider+kiraGider+muhasebeGider
+kar=toplamGelir-toplamGider
+
+if kar>1000:
+   print("Karlidir")
+else:
+   print("Karli degildir")
