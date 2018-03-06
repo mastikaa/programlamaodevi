@@ -1,6 +1,6 @@
 print("Sirket karını hesaplamak icin degerleri giriniz")
 finansmanGelir=(int(input("Finansman gelirlerini giriniz"))
-pazarGelir=(int(input("Pazar gelirini giriniz"))
+pazar=(int(input("Pazar gelirini giriniz"))
 kiraGelir=(int(input("Kira gelirini giriniz"))
 
 ucret=(int(input("Ucret giderini giriniz"))
